@@ -1,0 +1,24 @@
+0. HomePage
+
+1. Skills
+    Languages
+    Databases
+    Platforms
+    Technologies
+
+2. Projects
+    ~ Supply Chain using Blockchain
+    ~ Machine Learning Project
+    ~ Game of Life
+
+3. Hackathons
+    ~ Code For Good
+    ~ Maker Garage
+    ~ CSI SPIT '22
+    ~ CSI SPIT '21
+
+4. Experiences
+    ~ Professional
+    ~ Schooling
+
+5. Blog
