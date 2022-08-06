@@ -1,10 +1,16 @@
+// pre-loader for pages
+// change color of buttons in projects pages
+// change color of buttons when that page is active
+
 0. HomePage
+   ~ My Photo
+   ~ Who Am I
 
 1. Skills
-    Languages
-    Databases
-    Platforms
-    Technologies
+   ~ Platforms : Leetcode, Codeforces, Github, Codechef
+   ~ Languages
+   ~ Databases
+   ~ Technologies
 
 2. Projects
     ~ Supply Chain using Blockchain
@@ -13,7 +19,7 @@
 
 3. Hackathons
     ~ Code For Good
-    ~ Maker Garage
+    ~ Maker's Garage
     ~ CSI SPIT '22
     ~ CSI SPIT '21
 
