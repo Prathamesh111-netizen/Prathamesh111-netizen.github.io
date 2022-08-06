@@ -65,7 +65,7 @@ function CommonModule(props) {
 			<Typography
 				variant="h6"
 				sx={{ my: 2, cursor: "pointer" }}
-				onClick={() => navigate("/")}
+				onClick={() => navigate("/My-Portfolio")}
 			>
 				Prathamesh Pawar
 			</Typography>
@@ -99,7 +99,7 @@ function CommonModule(props) {
 							display: { xs: "none", sm: "block" },
 							cursor: "pointer"
 						}}
-						onClick={() => navigate("/")}
+						onClick={() => navigate("/My-Portfolio")}
 					>
 						Prathamesh Pawar
 					</Typography>

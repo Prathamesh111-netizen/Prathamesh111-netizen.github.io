@@ -36,7 +36,7 @@ function App() {
 		<BrowserRouter>
 			<ThemeProvider theme={theme}>
 				<Routes>
-					<Route path="" element={<CommonModule />}>
+					<Route path="My-Portfolio" element={<CommonModule />}>
 						<Route path="experiences" element={<ExperiencesPage />} />
 						<Route path="skills" element={<SkillsPage />} />
 						<Route path="projects" element={<ProjectsPage />} />
