@@ -27,7 +27,7 @@ export default function Projects() {
 					height: "100%",
 					display: "flex",
 					// flexDirection: { xs: "column", sm: "row" },
-					flexWrap: "wrap",
+					flexWrap: "no-wrap",
 					justifyContent: "space-evenly",
 					alignItems: "center",
 					mt: "1rem",

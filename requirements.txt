@@ -1,4 +1,4 @@
-// pre-loader for pages
+// pre-loader for pages and skeleton
 // change color of buttons in projects pages
 // change color of buttons when that page is active
 
@@ -7,10 +7,10 @@
    ~ Who Am I
 
 1. Skills
-   ~ Platforms : Leetcode, Codeforces, Github, Codechef
-   ~ Languages
-   ~ Databases
-   ~ Technologies
+#    ~ Platforms : Leetcode, Codeforces, Github, Codechef Stats
+   ~ Languages :
+   ~ Databases :
+   ~ Technologies : aws ec2 linux ubuntu kibana logstash 
 
 2. Projects
     ~ Supply Chain using Blockchain

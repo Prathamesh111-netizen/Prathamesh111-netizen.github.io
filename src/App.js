@@ -39,7 +39,10 @@ function App() {
 					<Route path="My-Portfolio" element={<CommonModule />}>
 						<Route path="experiences" element={<ExperiencesPage />} />
 						<Route path="skills" element={<SkillsPage />} />
-						<Route path="projects" element={<ProjectsPage />} />
+						<Route path="projects">
+							<Route path=":projectId" element={<HomePage />} />
+							<Route path="" element={<ProjectsPage />} />
+						</Route>
 						<Route path="hackathons" element={<HackathonsPage />} />
 						<Route path="blogs" element={<BlogsPage />} />
 						<Route path="" element={<HomePage />} />
