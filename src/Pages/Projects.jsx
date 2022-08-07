@@ -47,7 +47,17 @@ export default function Projects() {
 							<h2 class="card-title">Project Zeno</h2>
 							<p>Supply Chain Management & Asset Tracking </p>
 							<div class="card-actions justify-end">
-								<button class="btn btn-primary">Visit Me!</button>
+								<button
+									class="btn btn-primary"
+									onClick={() =>
+										window.open(
+											"https://github.com/Prathamesh111-netizen/Supply-Chain-and-Logistics-Blockchain",
+											"_blank"
+										)
+									}
+								>
+									Visit Me!
+								</button>
 							</div>
 						</div>
 					</div>
@@ -101,9 +111,19 @@ export default function Projects() {
 						</figure>
 						<div class="card-body">
 							<h2 class="card-title">Game of Life</h2>
-							<p>Prof. John Conways 2 Dimensional cellular simutlation</p>
+							<p>Prof. John Conways 1 and 2 Dimensional cellular simutlation</p>
 							<div class="card-actions justify-end">
-								<button class="btn glass">Visit Us</button>
+								<button
+									class="btn glass"
+									onClick={() =>
+										window.open(
+											"https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/",
+											"_blank"
+										)
+									}
+								>
+									Visit Us
+								</button>
 							</div>
 						</div>
 					</div>
@@ -121,7 +141,17 @@ export default function Projects() {
 							<h2 class="card-title">Data Structures Visualiser</h2>
 							<p>Primary data structures learning Tool for universiy grads</p>
 							<div class="card-actions justify-end">
-								<button class="btn glass">Visit Us</button>
+								<button
+									class="btn glass"
+									onClick={() =>
+										window.open(
+											"https://prathamesh111-netizen.github.io/Data-Structures-visualizer/",
+											"_blank"
+										)
+									}
+								>
+									Visit Us
+								</button>
 							</div>
 						</div>
 					</div>
@@ -129,13 +159,27 @@ export default function Projects() {
 				<Box sx={{ ml: "2rem" }}>
 					<div class="card w-96 bg-base-100 shadow-xl image-full">
 						<figure>
-							<img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+							<img
+								src={process.env.PUBLIC_URL + "/projects/nyc.jpg"}
+								height="200px"
+								alt="Shoes"
+							/>
 						</figure>
 						<div class="card-body">
 							<h2 class="card-title">New year!</h2>
 							<p>Waiting for new year! always keep the countdown</p>
 							<div class="card-actions justify-end">
-								<button class="btn glass">Glass button</button>
+								<button
+									class="btn glass"
+									onClick={() =>
+										window.open(
+											"https://prathamesh111-netizen.github.io/Project---New-Year-CountDown/",
+											"_blank"
+										)
+									}
+								>
+									Visit Us
+								</button>
 							</div>
 						</div>
 					</div>

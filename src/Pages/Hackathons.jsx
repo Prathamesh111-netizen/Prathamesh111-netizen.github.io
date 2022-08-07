@@ -105,6 +105,17 @@ export default function Hackathons() {
 								>
 									See Complete Story
 								</button>
+								<button
+									class="btn btn-secondary"
+									onClick={() =>
+										window.open(
+											"https://github.com/Prathamesh111-netizen/Code-for-Good-22-Banglore-Food-Bank-Challenge",
+											"_blank"
+										)
+									}
+								>
+									Project
+								</button>
 							</div>
 						</div>
 					</div>

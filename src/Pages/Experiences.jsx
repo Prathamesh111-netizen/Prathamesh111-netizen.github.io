@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import StarIcon from "@mui/icons-material/Star";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 
 export default function ExperiencesPage() {
 	return (
@@ -15,9 +16,9 @@ export default function ExperiencesPage() {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
 				contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-				date="2011 - present"
-				iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-				icon={<WorkIcon />}
+				date="Present"
+				iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+				icon={<FavoriteIcon />}
 			>
 				<h3 className="vertical-timeline-element-title">Exploring</h3>
 				<h4 className="vertical-timeline-element-subtitle">Mumbai, Indai</h4>
@@ -38,7 +39,7 @@ export default function ExperiencesPage() {
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
-				date="2006 - 2008"
+				date="Nov 2021 - June 2022"
 				iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
 				icon={<WorkIcon />}
 			>
@@ -52,7 +53,7 @@ export default function ExperiencesPage() {
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--education"
-				date="February 2021"
+				date="February 2021 - July 2024(Projected)"
 				iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
 				icon={<SchoolIcon />}
 			>
