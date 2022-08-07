@@ -14,12 +14,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 function QuiltedImageList() {
 	return (
-		<ImageList
-			// sx={{ width: 500, height: 450 }}
-			variant="quilted"
-			cols={4}
-			rowHeight={121}
-		>
+		<ImageList sx={{ width: 800 }} variant="quilted" cols={4} rowHeight={121}>
 			{itemData.map((item) => (
 				<ImageListItem
 					key={item.img}
@@ -39,38 +34,38 @@ function QuiltedImageList() {
 
 const itemData = [
 	{
-		img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+		img: process.env.PUBLIC_URL + "/cfg/team.png",
 		title: "Breakfast",
 		rows: 2,
 		cols: 2
 	},
 	{
-		img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+		img: process.env.PUBLIC_URL + "/cfg/trans.png",
 		title: "Burger"
 	},
 	{
-		img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+		img: process.env.PUBLIC_URL + "/cfg/win.jpg",
 		title: "Camera"
 	},
 	{
-		img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+		img: process.env.PUBLIC_URL + "/cfg/teamname.jpg",
 		title: "Coffee",
 		cols: 2
 	},
 	{
-		img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+		img: process.env.PUBLIC_URL + "/cfg/jpmc.jpeg",
 		title: "Hats",
 		cols: 2
 	},
 	{
-		img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+		img: process.env.PUBLIC_URL + "/cfg/banglorefoodbank.jpg",
 		title: "Honey",
 		author: "@arwinneil",
 		rows: 2,
 		cols: 2
 	},
 	{
-		img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
+		img: process.env.PUBLIC_URL + "/cfg/hack.jpg",
 		title: "Bike",
 		cols: 2
 	}
@@ -90,7 +85,7 @@ export default function Hackathons() {
 					<div class="card w-96 bg-base-100 shadow-xl">
 						<figure class="px-10 pt-10">
 							<img
-								src="https://placeimg.com/400/225/arch"
+								src={process.env.PUBLIC_URL + "/cfg/codeforgood.png"}
 								alt="Shoes"
 								class="rounded-xl"
 							/>
@@ -99,7 +94,17 @@ export default function Hackathons() {
 							<h2 class="card-title">First ever Hackathon Win</h2>
 							<p>JP Morgan Chase & Co. Code for Good 2022</p>
 							<div class="card-actions">
-								<button class="btn btn-primary">See Complete Story</button>
+								<button
+									class="btn btn-primary"
+									onClick={() =>
+										window.open(
+											"https://www.linkedin.com/posts/prathameshrspawar_jpmchase-codeforgood-techforgood-activity-6947061049212698624-W4yp?utm_source=linkedin_share&utm_medium=member_desktop_web",
+											"_blank"
+										)
+									}
+								>
+									See Complete Story
+								</button>
 							</div>
 						</div>
 					</div>

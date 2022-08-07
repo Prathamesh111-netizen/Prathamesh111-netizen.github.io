@@ -1,6 +1,4 @@
 import React from "react";
-import Box from "@mui/material/Box";
-import { Typography } from "@mui/material";
 
 export default function HomePage() {
 	return (
@@ -18,7 +16,7 @@ export default function HomePage() {
 							I'm not sure what it is yet, but something about life seems really
 							interesting.
 						</p>
-						<button class="btn btn-primary">Get Started</button>
+						{/* <button class="btn btn-primary">Get Started</button> */}
 					</div>
 				</div>
 			</div>

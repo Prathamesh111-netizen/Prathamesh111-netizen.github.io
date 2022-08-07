@@ -15,9 +15,9 @@ export default function Stats() {
 							<path d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z" />
 						</svg>
 					</div>
-					<div class="stat-title">Github Stars</div>
-					<div class="stat-value">31K</div>
-					<div class="stat-desc">Jan 1st - Feb 1st</div>
+					<div class="stat-title">Github Activity</div>
+					<div class="stat-value">415</div>
+					<div class="stat-desc">Jan 1st - Present</div>
 				</div>
 
 				<div class="stat">
@@ -41,9 +41,9 @@ export default function Stats() {
 							/>
 						</svg>
 					</div>
-					<div class="stat-title">Leetcode Count</div>
-					<div class="stat-value">4,200</div>
-					<div class="stat-desc">↗︎ 400 (22%)</div>
+					<div class="stat-title">Leetcode </div>
+					<div class="stat-value">107</div>
+					<div class="stat-desc">Problems solved</div>
 				</div>
 
 				<div class="stat">
@@ -80,9 +80,11 @@ export default function Stats() {
 							/>
 						</svg>
 					</div>
-					<div class="stat-title">Codeforces rating</div>
-					<div class="stat-value">1,200</div>
-					<div class="stat-desc">↘︎ 90 (14%)</div>
+					<div class="stat-title">Codeforces </div>
+					<div class="stat-value">
+						<Box sx={{ color: "#03A89E" }}>1,442</Box>
+					</div>
+					<div class="stat-desc">↗︎ +25 rating : Specialist</div>
 				</div>
 				<div class="stat">
 					<div class="stat-figure">
@@ -98,8 +100,8 @@ export default function Stats() {
 						</svg>
 					</div>
 					<div class="stat-title">Linkedin</div>
-					<div class="stat-value">1,200</div>
-					<div class="stat-desc">↘︎ 90 (14%)</div>
+					<div class="stat-value">10,358</div>
+					<div class="stat-desc">Impressions on profile</div>
 				</div>
 				<div class="stat">
 					<div class="stat-figure">
@@ -150,9 +152,9 @@ export default function Stats() {
 							/>
 						</svg>
 					</div>
-					<div class="stat-title">Instagram Friends</div>
-					<div class="stat-value">1,200</div>
-					<div class="stat-desc">↘︎ 90 (14%)</div>
+					<div class="stat-title">Instagram </div>
+					<div class="stat-value">516</div>
+					<div class="stat-desc">↗︎ 0.5% Friends</div>
 				</div>
 				<div class="stat">
 					<div class="stat-figure">
@@ -167,9 +169,9 @@ export default function Stats() {
 							/>
 						</svg>
 					</div>
-					<div class="stat-title">SnapScore</div>
-					<div class="stat-value">1,200</div>
-					<div class="stat-desc">↘︎ 90 (14%)</div>
+					<div class="stat-title">Snapchat</div>
+					<div class="stat-value">42,777</div>
+					<div class="stat-desc">My Snapscore</div>
 				</div>
 			</div>
 		</Box>
