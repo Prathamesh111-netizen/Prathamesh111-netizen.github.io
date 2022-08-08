@@ -26,15 +26,13 @@ export default function Projects() {
 				sx={{
 					height: "100%",
 					display: "flex",
-					// flexDirection: { xs: "column", sm: "row" },
-					flexWrap: "no-wrap",
+					flexDirection: { xs: "column", sm: "row" },
 					justifyContent: "space-evenly",
 					alignItems: "center",
-					mt: "1rem",
-					mb: "2rem"
+					my: "1rem"
 				}}
 			>
-				<Box>
+				<Box sx={{ mb: { xs: "1rem", sm: "0" } }}>
 					<div class="card lg:card-side bg-base-100 shadow-xl">
 						<figure>
 							<img
@@ -96,12 +94,17 @@ export default function Projects() {
 				<Typography color="text.primary">Fun</Typography>
 			</Breadcrumbs>
 			<Stack
-				direction="row"
 				divider={<Divider orientation="vertical" flexItem />}
-				spacing={4}
-				sx={{ mt: "1rem" }}
+				sx={{
+					height: "100%",
+					display: "flex",
+					flexDirection: { xs: "column", sm: "row" },
+					justifyContent: "space-evenly",
+					alignItems: "center",
+					my: "1rem"
+				}}
 			>
-				<Box sx={{ ml: "2rem" }}>
+				<Box sx={{ mb: { xs: "1rem", sm: "0" } }}>
 					<div class="card w-96 bg-base-100 shadow-xl image-full">
 						<figure>
 							<img
@@ -128,7 +131,7 @@ export default function Projects() {
 						</div>
 					</div>
 				</Box>
-				<Box sx={{ ml: "2rem" }}>
+				<Box sx={{ mb: { xs: "1rem", sm: "0" } }}>
 					<div class="card w-96 bg-base-100 shadow-xl image-full">
 						<figure>
 							<img
@@ -156,7 +159,7 @@ export default function Projects() {
 						</div>
 					</div>
 				</Box>
-				<Box sx={{ ml: "2rem" }}>
+				<Box>
 					<div class="card w-96 bg-base-100 shadow-xl image-full">
 						<figure>
 							<img

@@ -12,8 +12,9 @@ export default function SkillsSection() {
 			<Box
 				sx={{
 					display: "flex",
+					alignItems: "center",
 					justifyContent: "space-evenly",
-					alignItems: "center"
+					flexDirection: { xs: "column", sm: "row" }
 				}}
 			>
 				<Card sx={{ maxWidth: 345 }}>

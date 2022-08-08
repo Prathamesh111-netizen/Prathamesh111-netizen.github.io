@@ -8,11 +8,14 @@ export default function Blog() {
 			<Box
 				sx={{
 					display: "flex",
+					alignItems: "center",
 					justifyContent: "space-evenly",
-					alignItems: "center"
+					flexDirection: { xs: "column", sm: "row" }
 				}}
 			>
-				<Typography variant="h5">Coming Soon . . .</Typography>
+				<Typography sx={{ mb: { xs: "2rem", sm: "0" } }} variant="h5">
+					Coming Soon . . .
+				</Typography>
 				<img
 					src={process.env.PUBLIC_URL + "/coming_soon.svg"}
 					alt="coming soon"

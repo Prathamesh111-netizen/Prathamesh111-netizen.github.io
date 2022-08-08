@@ -4,6 +4,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: "#b31b1b";
+	position: absolute;
 }
 
 code {

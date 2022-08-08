@@ -77,11 +77,12 @@ export default function Hackathons() {
 			<Box
 				sx={{
 					display: "flex",
+					alignItems: "center",
 					justifyContent: "space-evenly",
-					alignItems: "center"
+					flexDirection: { xs: "column", sm: "row" }
 				}}
 			>
-				<Box>
+				<Box sx={{ mb: { xs: "1rem", sm: "0" } }}>
 					<div class="card w-96 bg-base-100 shadow-xl">
 						<figure class="px-10 pt-10">
 							<img
