@@ -21,7 +21,7 @@ export default function ExperiencesPage() {
 				icon={<FavoriteIcon />}
 			>
 				<h3 className="vertical-timeline-element-title">Exploring</h3>
-				<h4 className="vertical-timeline-element-subtitle">Mumbai, Indai</h4>
+				<h4 className="vertical-timeline-element-subtitle">Mumbai, India</h4>
 				<p>Doing things I enjoy the most</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
