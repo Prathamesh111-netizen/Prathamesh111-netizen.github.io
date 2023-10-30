@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import cryptoCrowdImg from "@/public/cryptocrowd2.png";
+import ProximaPng from "@/public/proxima.png";
 import ozdevsImg from "@/public/ozdevs-two.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
@@ -77,7 +77,7 @@ export const projectsData = [
       "logos:bootstrap",
       "logos:express",
     ],
-    imageUrl: cryptoCrowdImg,
+    imageUrl: ProximaPng,
     githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
     demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
