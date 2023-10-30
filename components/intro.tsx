@@ -34,7 +34,7 @@ export default function Intro() {
           >
             <Image
               src={githubdp}
-              alt="Ricardo portrait"
+              alt="Prathamesh Pawar"
               width="192"
               height="192"
               quality="95"
@@ -64,9 +64,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Prathamesh.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">The University of Queensland</span>. I spend
+        <span className="font-bold">Mumbai, india</span>. I spend
         my day working on web apps with TypeScript, React.js, PHP, Symfony and
         AWS.
       </motion.h1>
@@ -81,7 +81,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
+          href="https://github.com/Prathamesh111-netizen"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -89,7 +89,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
+          href="https://www.linkedin.com/in/prathameshrjpawar/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
