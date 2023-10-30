@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import ProximaPng from "@/public/proxima.png";
 import ozdevsImg from "@/public/ozdevs-two.png";
-import assetTradingImg from "@/public/asset-trading.jpg";
+import GameofLifePng from "@/public/GameofLifePng.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
@@ -39,26 +39,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "M3 Digital - Contract",
-    description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+    title: "Technology Analyst Intern",
+    location: "Deutsche Bank Group- Pune, India",
+    description: "Accomplishments include creating a Grafana dashboard for Google Cloud resource monitoring, developing an AI Bot Creator Platform prototype, optimizing deployment workflows for a 40% reduction in time, achieving 99.8% accuracy in loan eligibility prediction, and enhancing user experience in the SRE toolkit and cloud monitoring platform.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
+    date: "May 2023 - July 2023",
   },
   {
-    title: "Junior Developer",
-    location: "YouPay - Full-time",
-    description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
+    title: "Backend Developer",
+    location: "Sarvm.AI - Remote",
+    description: "Owned and managed the User Authentication module, Implemented multi-factor authentication (MFA), Utilised Elastic search, Kibana, and Logstash for efficient Logs Processing and Visualization.",
     icon: React.createElement(CgWorkAlt),
-    date: "February 2022 - November 2022",
+    date: "May 2022 - September 2022",
   },
   {
-    title: "Software Engineer",
-    location: "The University of Queensland - Full-time",
-    description:
-      "Full-stack software engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
+    title: "Full Stack Developer",
+    location: "Vidyadaan Sahayyak Mandal - Mumbai, India",
+    description: "Enhanced the management of Donations records of approx 10-15cr for the organization, Deployed and monitored the infrastructure on AWS, including EC2 instances, RDBMS",
     icon: React.createElement(CgWorkAlt),
     date: "November 2022 - Present",
   },
@@ -66,9 +63,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CryptoCrowd",
+    title: "Proxima",
     description:
-      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
+      "Proxima is a Collaborative Decentralized Video Meeting Website designed exclusively for developers to enhance their virtual collaboration and communication efforts. The platform provides real-time audio/video conferencing, file sharing, and a live code share feature, making it an ideal solution for developers who want to work together on projects.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     icons: [
       "logos:aws",
@@ -78,13 +75,13 @@ export const projectsData = [
       "logos:express",
     ],
     imageUrl: ProximaPng,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    githubLink: "https://github.com/Prathamesh111-netizen/Proxima",
+    demoLink: "https://proxima-prathamesh111-netizen.cloud.okteto.net/",
   },
   {
-    title: "OzDevs",
+    title: "Banglore Food Bank",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
+      "The Project was created as a part of JP Morgan Chase & Co. Code for food Event. Bangalore food bank till date has served over 54 mn feeds, distributed over 250 tonnes of food, and touched lives of over 3.6 lakh beneficiaries.      The goal of this solution is to use technology to increase awareness about the issue of hunger in India and to make it easier for individuals and organizations to donate to the Bangalore Food Bank and other organizations working to combat hunger.",
     tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
     icons: [
       "logos:laravel",
@@ -94,74 +91,36 @@ export const projectsData = [
       "logos:mysql",
     ],
     imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    urlLink: "https://bgbank-bgbank-prathamesh111-netizen.cloud.okteto.net/",
+    githubLink: "https://github.com/Prathamesh111-netizen/Banglore-Food-Bank",
   },
   {
-    title: "Company Asset Trading",
+    title: "Game of Life",
     description:
-      "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
+      "Play the Game of Life online, a single player game invented in 1970 by Cambridge mathematician John Conway. Conway's Game of Life simulates the birth and death of cells on a rectangular grid. The state of a given cell in any generation depends on the state of the cell and its eight immediate neighbors in the preceding generation.",
     tags: ["Java", "MariaDB", "Swing"],
     icons: ["logos:java", "logos:mariadb-icon"],
-    imageUrl: assetTradingImg,
-    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
+    imageUrl: GameofLifePng,
+    urlLink: "https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/",
+    githubLink: "https://github.com/Prathamesh111-netizen/Game-of-Life-Simulation",
   },
   {
-    title: "Euphorus",
+    title: "Zeno",
     description:
-      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
+      "Project Zeno is a solution for complex and fragmented supply chain issues created by disrupted market. It utilizes the Ethereum blockchain network and cloud off-chain databases to provide effective gas pricing. Zeno provides an easy-to-use interface to manage inventory and connect with various parties throughout the supply chain journey, such as transportation providers and retailers. Products are tracked using a unique Certificate of Origin, ensuring transparency and traceability.",
     tags: ["JavaScript", "React", "Bootstrap"],
     icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
     imageUrl: euphorusImg,
     githubLink: "https://github.com/ben04rogers/cab230assignment1",
   },
   {
-    title: "Country Happiness API",
-    description:
-      "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-    tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-    icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-    imageUrl: euphorusBackendImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  },
-  {
-    title: "Techprowl Computer Auction",
-    description:
-      "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
+    title: "Data Structures Visualizer",
+    description: "The best way to understand complex data structures is to see them in action. We've developed interactive animations for a variety of data structures and algorithms. Our visualization tool is written in javascript using the HTML5 canvas element, and run in just about any modern browser -- including iOS devices like the iPhone and iPad, and even the web browser in the Kindle! ",
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
+    githubLink: "https://github.com/Prathamesh111-netizen/Data-Structures-visualizer",
     urlLink: "https://techprowl.herokuapp.com",
-  },
-  {
-    title: "Task Manager Console App",
-    description:
-      "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-    tags: ["C#"],
-    icons: ["devicon:csharp"],
-    imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ben04rogers/task-manager",
-  },
-  {
-    title: "Family Tree Shortest Path",
-    description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
-    icons: ["logos:python"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
-    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
-  },
-  {
-    title: "Arduino Binary Game",
-    description:
-      "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
-    tags: ["C"],
-    icons: ["devicon:c"],
-    imageUrl: binaryGameImg,
-    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
-    demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
   },
 ] as const;
 
