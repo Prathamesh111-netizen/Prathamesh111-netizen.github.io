@@ -64,11 +64,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div className="font-bold">Hello, I'm Prathamesh Pawar.</div> 
-        <div className="font-bold">I am Software Engineer from Mumbai.</div> 
+        <div className="font">Hello, I'm Prathamesh Pawar.</div> 
+        <div className="font">I am Software Engineer from Mumbai.</div> 
         <br></br>
-        <div className="font">I have 1+ year of professional experience with high-level ownership </div> 
-        <div className="font-bold">Lets Connect !! </div> 
+        <div className="font-bold">Looking for Winter Internship !! </div> 
+        <div className="font">Ex-Intern at Deutsche Bank, Sarvm.AI & VSM </div> 
       </motion.h1>
 
       <motion.div

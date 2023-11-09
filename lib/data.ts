@@ -4,20 +4,13 @@ import ProximaPng from "@/public/proxima.png";
 import ozdevsImg from "@/public/ozdevs-two.png";
 import GameofLifePng from "@/public/GameofLifePng.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
-import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
-import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
-import binaryGameImg from "@/public//binary-game.png";
+import { Icon } from "@iconify/react";
 
 export const links = [
   {
     name: "Home",
     hash: "#home",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
   },
   {
     name: "Skills",
@@ -27,6 +20,11 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
+  
   {
     name: "Education",
     hash: "#education",
@@ -42,7 +40,7 @@ export const experiencesData = [
     title: "Technology Analyst Intern",
     location: "Deutsche Bank Group- Pune, India",
     description: "Accomplishments include creating a Grafana dashboard for Google Cloud resource monitoring, developing an AI Bot Creator Platform prototype, optimizing deployment workflows for a 40% reduction in time, achieving 99.8% accuracy in loan eligibility prediction, and enhancing user experience in the SRE toolkit and cloud monitoring platform.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(Icon,{ icon : "simple-icons:deutschebank", color:"#08197b"}),
     date: "May 2023 - July 2023",
   },
   {
@@ -66,58 +64,61 @@ export const projectsData = [
     title: "Proxima",
     description:
       "Proxima is a Collaborative Decentralized Video Meeting Website designed exclusively for developers to enhance their virtual collaboration and communication efforts. The platform provides real-time audio/video conferencing, file sharing, and a live code share feature, making it an ideal solution for developers who want to work together on projects.",
-    tags: ["JavaScript", "React", "Express.js", "AWS"],
+    tags: ["JavaScript", "React", "Express.js", "Nodejs", "Metamask", "Mongodb"],
     icons: [
-      "logos:aws",
-      "logos:javascript",
       "logos:react",
-      "logos:bootstrap",
-      "logos:express",
+      "devicon:socketio",
+      "devicon:nodejs",
+      "logos:metamask-icon",
+      "devicon:mongodb-wordmark"
     ],
     imageUrl: ProximaPng,
     githubLink: "https://github.com/Prathamesh111-netizen/Proxima",
+    urlLink: "https://proxima-prathamesh111-netizen.cloud.okteto.net/",
     demoLink: "https://proxima-prathamesh111-netizen.cloud.okteto.net/",
   },
   {
     title: "Banglore Food Bank",
     description:
       "The Project was created as a part of JP Morgan Chase & Co. Code for food Event. Bangalore food bank till date has served over 54 mn feeds, distributed over 250 tonnes of food, and touched lives of over 3.6 lakh beneficiaries.      The goal of this solution is to use technology to increase awareness about the issue of hunger in India and to make it easier for individuals and organizations to donate to the Bangalore Food Bank and other organizations working to combat hunger.",
-    tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+    tags: ["Razorpay", "React", "JavaScript", "NodeJS", "MongoDB"],
     icons: [
-      "logos:laravel",
-      "logos:php",
-      "logos:javascript",
-      "devicon:tailwindcss",
-      "logos:mysql",
+      "simple-icons:razorpay",
+      "logos:react",
+      "devicon:nodejs",
+      "devicon:mongodb"
     ],
     imageUrl: ozdevsImg,
     urlLink: "https://bgbank-bgbank-prathamesh111-netizen.cloud.okteto.net/",
+    demoLink:"https://youtu.be/WOmhhXmyG3U",
     githubLink: "https://github.com/Prathamesh111-netizen/Banglore-Food-Bank",
-  },
-  {
-    title: "Game of Life",
-    description:
-      "Play the Game of Life online, a single player game invented in 1970 by Cambridge mathematician John Conway. Conway's Game of Life simulates the birth and death of cells on a rectangular grid. The state of a given cell in any generation depends on the state of the cell and its eight immediate neighbors in the preceding generation.",
-    tags: ["Java", "MariaDB", "Swing"],
-    icons: ["logos:java", "logos:mariadb-icon"],
-    imageUrl: GameofLifePng,
-    urlLink: "https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/",
-    githubLink: "https://github.com/Prathamesh111-netizen/Game-of-Life-Simulation",
   },
   {
     title: "Zeno",
     description:
       "Project Zeno is a solution for complex and fragmented supply chain issues created by disrupted market. It utilizes the Ethereum blockchain network and cloud off-chain databases to provide effective gas pricing. Zeno provides an easy-to-use interface to manage inventory and connect with various parties throughout the supply chain journey, such as transportation providers and retailers. Products are tracked using a unique Certificate of Origin, ensuring transparency and traceability.",
     tags: ["JavaScript", "React", "Bootstrap"],
-    icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
+    icons: ["logos:ethereum", "vscode-icons:file-type-light-solidity", "logos:react"],
     imageUrl: euphorusImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment1",
+    githubLink: "https://github.com/Prathamesh111-netizen/Zeno",
+    demoLink: "https://youtu.be/xkflRKNt940"
   },
+  {
+    title: "Game of Life",
+    description:
+      "Play the Game of Life online, a single player game invented in 1970 by Cambridge mathematician John Conway. Conway's Game of Life simulates the birth and death of cells on a rectangular grid. The state of a given cell in any generation depends on the state of the cell and its eight immediate neighbors in the preceding generation.",
+    tags: ["Java", "MariaDB", "Swing"],
+    icons: ["logos:p5js", "vscode-icons:file-type-html", "vscode-icons:file-type-css"],
+    imageUrl: GameofLifePng,
+    urlLink: "https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/",
+    githubLink: "https://github.com/Prathamesh111-netizen/Game-of-Life-Simulation",
+  },
+  
   {
     title: "Data Structures Visualizer",
     description: "The best way to understand complex data structures is to see them in action. We've developed interactive animations for a variety of data structures and algorithms. Our visualization tool is written in javascript using the HTML5 canvas element, and run in just about any modern browser -- including iOS devices like the iPhone and iPad, and even the web browser in the Kindle! ",
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-    icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
+    icons: ["vscode-icons:file-type-html", "vscode-icons:file-type-css"],
     imageUrl: techprowlImg,
     githubLink: "https://github.com/Prathamesh111-netizen/Data-Structures-visualizer",
     urlLink: "https://techprowl.herokuapp.com",
@@ -134,6 +135,26 @@ export const skillsData = [
     icon: "logos:typescript-icon",
   },
   {
+    name: "Python",
+    icon: "logos:python",
+  },
+  {
+    name: "Java",
+    icon: "logos:java",
+  },
+  {
+    name: "Docker",
+    icon: "logos:docker-icon",
+  },
+  {
+    name: "Kubernetes",
+    icon: "logos:kubernetes",
+  },
+  {
+    name: "Terraform",
+    icon: "devicon:terraform",
+  },
+  {
     name: "React",
     icon: "logos:react",
   },
@@ -142,24 +163,12 @@ export const skillsData = [
     icon: "logos:nodejs-icon",
   },
   {
-    name: "PHP",
-    icon: "logos:php",
+    name: "Express.js",
+    icon: "skill-icons:expressjs-light",
   },
   {
-    name: "Laravel",
-    icon: "logos:laravel",
-  },
-  {
-    name: "Symfony",
-    icon: "logos:symfony",
-  },
-  {
-    name: "Python",
-    icon: "logos:python",
-  },
-  {
-    name: "Java",
-    icon: "logos:java",
+    name: "Next.js",
+    icon: "skill-icons:nextjs-light",
   },
   {
     name: "HTML",
@@ -178,27 +187,27 @@ export const skillsData = [
     icon: "logos:git-icon",
   },
   {
-    name: "MySQL",
-    icon: "logos:mysql",
-  },
-  {
     name: "Linux",
     icon: "flat-color-icons:linux",
   },
   {
+    name: "MySQL",
+    icon: "logos:mysql",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "logos:postgresql",
+  },
+  {
+    name: "MongoDB",
+    icon: "logos:mongodb-icon",
+  },
+  {
     name: "AWS",
-    icon: "logos:aws",
+    icon: "skill-icons:aws-light",
   },
   {
-    name: "Docker",
-    icon: "logos:docker-icon",
-  },
-  {
-    name: "Jenkins",
-    icon: "devicon:jenkins",
-  },
-  {
-    name: "Shopify",
-    icon: "logos:shopify",
+    name: "GCP",
+    icon: "skill-icons:gcp-light",
   },
 ] as const;
