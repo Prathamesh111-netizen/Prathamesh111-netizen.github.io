@@ -1,11 +1,10 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import ProximaPng from "@/public/proxima.png";
-import ozdevsImg from "@/public/ozdevs-two.png";
 import GameofLifePng from "@/public/GameofLifePng.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
+import ozdevsImg from "@/public/ozdevs-two.png";
+import ProximaPng from "@/public/proxima.png";
 import techprowlImg from "@/public/techprowl-two.png";
 import { Icon } from "@iconify/react";
+import React from "react";
 
 export const links = [
   {
@@ -24,7 +23,7 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  
+
   {
     name: "Education",
     hash: "#education",
@@ -37,24 +36,47 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Founding member of Technology Team",
+    location: "BharatBrainz- Kota, India",
+    description: "Developed a video streaming pipeline with Vimeo, AWS MediaConvert, and AWS Transcribe, optimizing efficiency by 75% and batch processing 3TB of content. Created 50+ React Native UI screens with AWS Lambda backend, reducing app load times by 25% and boosting user engagement by 30%; integrated in-app purchases and customer support tools.  Tech Stack: TypeScript, React, React Native, AWS, Firebase, Gemini, tRPC.",
+    icon: React.createElement(
+      "img",
+      { src: "https://yt3.googleusercontent.com/7B3P4uto9relfiCiD9ckWLFByRJNvLvTq3Tw3YcVl2V-P4dcJ1bAL4tjgtlLSPcqaeoLHCsh=s900-c-k-c0x00ffffff-no-rj", alt: "Sarvm.AI Logo", width: "54px" },
+      null
+    ),
+    link: "https://www.linkedin.com/company/vyas-edification/?originalSubdomain=in",
+    date: "Jan 2024 - June 2024",
+  },
+  {
     title: "Technology Analyst Intern",
     location: "Deutsche Bank Group- Pune, India",
     description: "Accomplishments include creating a Grafana dashboard for Google Cloud resource monitoring, developing an AI Bot Creator Platform prototype, optimizing deployment workflows for a 40% reduction in time, achieving 99.8% accuracy in loan eligibility prediction, and enhancing user experience in the SRE toolkit and cloud monitoring platform.",
-    icon: React.createElement(Icon,{ icon : "simple-icons:deutschebank", color:"#08197b"}),
+    icon: React.createElement(Icon, { icon: "simple-icons:deutschebank", color: "#08197b" }),
+    link: "https://www.db.com/india/",
     date: "May 2023 - July 2023",
   },
   {
     title: "Backend Developer",
     location: "Sarvm.AI - Remote",
     description: "Owned and managed the User Authentication module, Implemented multi-factor authentication (MFA), Utilised Elastic search, Kibana, and Logstash for efficient Logs Processing and Visualization.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(
+      "img",
+      { src: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/36/0e/23/360e2350-c8bb-e6f3-9255-91d4d44a4b95/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg", alt: "Sarvm.AI Logo", width: "54px" },
+      null
+    ),
+    link: "https://sarvm.ai/",
     date: "May 2022 - September 2022",
   },
   {
     title: "Full Stack Developer",
     location: "Vidyadaan Sahayyak Mandal - Mumbai, India",
     description: "Enhanced the management of Donations records of approx 10-15cr for the organization, Deployed and monitored the infrastructure on AWS, including EC2 instances, RDBMS",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(
+      "img",
+      { src: "https://pbs.twimg.com/profile_images/1436504281012600836/Oo0hPkTq_400x400.jpg", alt: "VSM Logo", width: "54px" },
+      null
+    ),
+    link: "https://vsmthane.org/",
     date: "November 2022 - Present",
   },
 ] as const;
@@ -90,7 +112,7 @@ export const projectsData = [
     ],
     imageUrl: ozdevsImg,
     urlLink: "https://bgbank-bgbank-prathamesh111-netizen.cloud.okteto.net/",
-    demoLink:"https://youtu.be/WOmhhXmyG3U",
+    demoLink: "https://youtu.be/WOmhhXmyG3U",
     githubLink: "https://github.com/Prathamesh111-netizen/Banglore-Food-Bank",
   },
   {
@@ -113,7 +135,7 @@ export const projectsData = [
     urlLink: "https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/",
     githubLink: "https://github.com/Prathamesh111-netizen/Game-of-Life-Simulation",
   },
-  
+
   {
     title: "Data Structures Visualizer",
     description: "The best way to understand complex data structures is to see them in action. We've developed interactive animations for a variety of data structures and algorithms. Our visualization tool is written in javascript using the HTML5 canvas element, and run in just about any modern browser -- including iOS devices like the iPhone and iPad, and even the web browser in the Kindle! ",
